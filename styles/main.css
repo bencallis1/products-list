@@ -38,7 +38,14 @@ h1,h2,h3,h4,h5,h6 {
     min-width: 250px;
     max-width: 30%;
     display: none;
+    justify-content: space-between;
+    align-items: center;
     background: #ccc;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
 }
 
 .home-page-mid {
@@ -52,6 +59,11 @@ h1,h2,h3,h4,h5,h6 {
 
 .product-container {
     width: 50%;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
 
 }
 
